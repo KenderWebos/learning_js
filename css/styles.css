@@ -7,11 +7,11 @@ html {
 }
 
 body {
-    background-color: #181818;
     color: white;
+    background-color: #181818;
 }
 
-button {
+.button {
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -24,18 +24,62 @@ button {
     cursor: pointer;
 }
 
+.button:hover{
+    background-color: #45a049;
+}
+
 .console{
+    color:black;
     background-color: #686868;
     width: 50%;
-    height: 500px;
+    height: 100%;
 
     border: none;
-    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+}
+
+.generic-form{
+    color:black;
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 25%;
+    padding: 15px 32px;
+    display: inline-block;
+}
+
+.module1{
+    color:black;
+    background-color: lightslategray;
+    width: 50%;
+    height: 50%;
+
+    border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+}
+
+.module1:hover{
+    border: solid red 5px;
+    transition: 0.1s; 
+}
+
+.module2{
+    color:black;
+    background-color: lightgoldenrodyellow;
+    width: 50%;
+    height: 50%;
+
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.module2:hover{
+    border: solid red 5px;
+    transition: 0.1s; 
 }

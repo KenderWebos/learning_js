@@ -5,28 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Document</title>
+    <title>Learning JS</title>
+    
 </head>
 <body>
-    <form id="text-editor">
-        <textarea id="script-text" cols="30" rows="10">
-        </textarea>
-
-        <input type="submit" value="enviar">
-         
-    </form>
-        
-
 
     <center>
-        <h1>This is the main console for learning JS</h1>
+        <div class="top">
+            <h1>This is the main console for learning JS</h1>
+        </div>
 
-        <button onclick="window.main()"> RUN </button>
+        <div class="module1">
+            <h1 class="txt_module1">a simple text for module 1</h1>
+            <button class="button" onclick="window.function_module_1()"> RUN </button>
+        </div>
+        
+        <div class="module2">
+            <h1 class="txt_module2">a simple text for module 2</h1>
+            <button class="button" onclick="window.function_module_2()"> RUN </button>
+        </div>
     </center>
-
 
     <center> <div class="console"></div> </center>
 
+    <center>
+        <form id="text-editor" class="generic-form">
+            <textarea id="script-text" cols="50" rows="10" style="height: 71px; width: 963px;"></textarea>
+            <input class="button" type="submit" value="ENVIAR">
+        </form>
+    </center>
+
     <script src="../js/main.js"></script>
+    <script src="../js/another.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ const scriptText = document.getElementById("script-text"); // text area
 
 function handleSubmit(event) {
   
-  event.preventDefault();  // previene acciones por defecto del evento 
+  event.preventDefault();  // previene acciones por defecto del evento
 
   const script = document.createElement("script"); // creamos una etiqueta script <script></script>
   script.type = "text/javascript"; // le damos un tipo de texto
