@@ -1,5 +1,3 @@
-
-
 function function_module_1()
 {
     let array = [1,2,3,4,5];
